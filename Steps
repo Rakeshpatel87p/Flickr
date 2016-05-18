@@ -1,0 +1,15 @@
+Steps:
+
+	1A) Asynchronous query is made to Flickr API for images tagged with that search term.
+		-Input bar is cleared
+		-View adds <p>Search for Instagram photos tagged with "cats"</p>
+
+2) Images are displayed in the html
+	ng-repeat
+
+3) There is text telling the user how many images were found
+	Animate this text - have it pulsate/glow - whatever.
+
+4) If no images found, text should reflect this.
+
+5) If there was an error calling to the server, then there should be a message indicating this to the user.	

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body ng-controller="fillContent">
+    <h1>Flickr Searcher</h1>
+    <form name="userInput" novalidate ng-submit="submit()">
+        <input type="text" name="userInputContent" placeholder="Enter a tag to search for" ng-model="userSearch" required>
+        <button>Submit</button>
+        <br />
+        <span class="error" ng-if="userInput.$submitted && userInput.userInputContent.$error.required">Enter a Tag</span>
+    </form>
+</body>
+<script src="https://code.angularjs.org/1.3.10/angular.js"></script>
+<script type="text/javascript" src="https://code.angularjs.org/1.3.10/angular-animate.js"></script>
+<script src="js/main.js"></script>
+
+</html>
