@@ -1,0 +1,38 @@
+h1 {
+	text-align:center;
+	font-size:3em;
+}
+
+form {
+	margin-left:39%;
+}
+
+input {
+	width:25%;
+	height:22px;
+	margin-right:2%;
+
+}
+
+button {
+	padding:0.9%;
+}
+
+span {
+	text-align:center;
+}
+
+table tr td {
+	display:inline-block;
+}
+
+img {
+    padding:3em;
+    position: relative;
+    float: left;
+    width:  300px;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
